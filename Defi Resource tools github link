@@ -2,4 +2,30 @@ https://github.com/defi-defense-dao/defi-risk-tools-list
 
 
 Mythril -(https://github.com/ConsenSys/mythril)
+requirements:
+need to install python(current version/ 3.0+)
+need to install pip
+need to install Rust/Cargo (nightly)
+
+Errors:
+Works well with my laptop(not sure what i downloaded to make it work), but does not work in my primary pc. Gives the error 'Running setup.py install for pyethash ... error' 
+i suspect i need to download an updated version of rust / cargo, but still gives error.
+
+
+Manticore - (https://github.com/trailofbits/manticore)
+Requirements: 
+need to install python(current version/ 3.0+)
+need to install pip
+need to install solc
+need to install z3
+need to install Rust/Cargo (nightly)
+
+For macusers:
+need to install Homebrew
+
+
+
 ethrsplay - (https://github.com/crytic/ethersplay)
+Have not tested
+
+
