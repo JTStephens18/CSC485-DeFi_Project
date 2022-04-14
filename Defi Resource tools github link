@@ -2,7 +2,18 @@ https://github.com/defi-defense-dao/defi-risk-tools-list
 
 
 Manticore - (https://github.com/trailofbits/manticore)
-Requirements: 
 Installed via docker.
+  - install docker desktop  
+      - docker requires to have hyper v. If you need it just ask me and ill send you a bash script to download hyper v on your pc
+  - download UBUNTU LT in windows store
+  - Run ubuntu and type 'docker pull trailofbits/manticore'
+  - send solidity file to docker container via 'docker cp ./file_name CONTAINERNAME:/same file_name' (make sure you are in the directory where you want to send your files)
+  - Run the trailofbits/manticore in docker desktop
+  - open CLI and go to the directory of the solidity file (you can use the command 'ls' to show all the directories)
+  - go to said directroy via 'cd directory name' 
+  - run manticore by using manticore solidityfile.sol 
+  - Manticore should give the result via in CLI but it also produce a folder that has the result in it
+  - to retrieve the result run command 'docker cp CONTAINER_NAME:/directory_name/File_name .' the period is a must
 
-
+  - documentaitoin for manticore 
+  "https://github.com/trailofbits/manticore/wiki/Tutorial:-Running-under-Manticore#how-to-run-a-standalone-exploration"
