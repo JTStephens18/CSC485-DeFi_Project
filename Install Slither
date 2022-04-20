@@ -1,0 +1,24 @@
+https://github.com/crytic/slither
+
+First, you need to install Docker on your computer. 
+https://docs.docker.com/get-docker/
+You can follow the link above and go through the steps to install based on your operating system. 
+
+Python3 and the solc solidity compiler must also be installed on your system before the tool can work properly. 
+You can install Python from here:
+https://www.python.org/downloads/
+
+Then you must open the terminal to install the solidity compiler. It can be installed by using Node.js or Docker.
+For Node run: npm install -g solc
+For Docker: docker run ethereum/solc:stable --help
+
+Now we can use Docker to run the Slither tool.
+Run the following: 
+docker pull trailofbits/eth-security-toolbox
+docker run -it -v /home/share:/share trailofbits/eth-security-toolbox
+
+Now Slither is installed on your machine. To run the program, simply type slither in the terminal 
+To run the program on specific contracts type slither and then the contract address such as: slither 0x12...34
+
+Running this will print some information out, but it may be difficult to understand. You can print a human readable summary as well as a few other options. 
+Here is a link to the documentation: https://github.com/crytic/slither/wiki/Printer-documentation#human-summary
