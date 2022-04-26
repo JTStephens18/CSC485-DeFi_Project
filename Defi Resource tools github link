@@ -17,3 +17,18 @@ Installed via docker.
 
   - documentaitoin for manticore 
   "https://github.com/trailofbits/manticore/wiki/Tutorial:-Running-under-Manticore#how-to-run-a-standalone-exploration"
+  
+ 
+Mythx - (https://mythx.io/)
+Can work with Remix and visual studio by Plugin
+  - Must Have a membership to use Mythx
+  - Must have a metamask account (Account Number needed)
+  - Create account and link Metamask account number to your account
+  - Open Remix and download the Mythx Plugin
+  - Copy and paste the solidity file you want to analyze
+  - Compile sol file
+  - Click mythx tab and analyze
+  - Analysis can take up to 2-10 minutes
+  - once finished the results is posted in remix itself or in the mythx dashboard
+  
+  
